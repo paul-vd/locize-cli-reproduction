@@ -1,0 +1,15 @@
+{
+  "name": "locize",
+  "version": "1.0.0",
+  "description": "Reproduction of https://github.com/locize/locize-cli/pull/83",
+  "scripts": {
+    "download": "locize download --clean=true --path=./public/locales",
+    "sync": "locize sync --path=./public/locales --dry=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "locize-cli": "^7.13.2"
+  }
+}
