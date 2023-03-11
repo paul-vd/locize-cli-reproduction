@@ -1,0 +1,11 @@
+diff --git a/node_modules/locize-cli/bin/locize b/node_modules/locize-cli/bin/locize
+index 7facb5c..04be9fc 100755
+--- a/node_modules/locize-cli/bin/locize
++++ b/node_modules/locize-cli/bin/locize
+@@ -1,4 +1,5 @@
+ #!/usr/bin/env node
++require('dotenv').config();
+ 
+ const program = require('commander');
+ const colors = require('colors');
+ 
